@@ -1,6 +1,28 @@
 # parquet-1
 Project Mosaic: GeoParquet test 1
 
+# Demo
+## The GeoParquet resource
+https://optgeo.github.io/parquet-1/N03-19_14_190101.parquet
+
+## Python code
+### install
+```sh
+pip install geopandas pyarrow fsspec requests aiohttp
+```
+
+### demo
+```python
+import geopandas
+import fsspec
+
+url = 'https://optgeo.github.io/parquet-1/N03-19_14_190101.parquet'
+with fsspec.open(url) as file:
+    df = geopandas.read_parquet(file)
+
+df
+```
+
 # Concept 
 Source: https://github.com/UNopenGIS/7/issues/229
 
