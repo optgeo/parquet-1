@@ -2,6 +2,9 @@
 Project Mosaic: GeoParquet test 1
 
 # Demo
+## optbv from GSI, Samukawa only.
+https://protomaps.github.io/PMTiles/?url=https%3A%2F%2Fsmb.optgeo.org%2Fipfs%2FQmRy4JWL7L9WbZxG8atK68EdC5tKbArmWZL8mH8do3CQYm#map=12.6/35.37171/139.38318
+
 ## The GeoParquet resource
 https://optgeo.github.io/parquet-1/N03-19_14_190101.parquet
 
@@ -52,6 +55,12 @@ Project Mosaic は次の世界観を実世界にもたらすことを目指し�
 以上の技術的な手順により、mosaic projectでは、行政界データを取り込み、必要な領域のタイルをスマートタイルとして再生成し、IPFSを使って公開し、ユーザーにより効率的で使いやすい地図を提供することを目指しています。分散ウェブの効果によって経済性と安全性が強化される見込みがあることも魅力です。
 
 国連スマート地図グループは、Project Mosaic という実践を進捗させることより、より多くの人々が地理空間情報を活用できる環境を創り上げます。
+
+## 当座の作業のメモ
+作業を次のフェーズに分離する
+
+1. 地方公共団体のポリゴンと、そのポリゴンに掛かり得るベクトルデータとを得るフェーズ。
+2. 
 
 ## About social preview image
 Room from a hotel in the Cours d'Albret, Bordeaux: https://www.metmuseum.org/art/collection/search/199390
