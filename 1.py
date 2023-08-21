@@ -26,8 +26,8 @@ def get_cmd(template, zxy):
   url = re.sub("{z}", str(zxy[0]), template)
   url = re.sub("{x}", str(zxy[1]), url)
   url = re.sub("{y}", str(zxy[2]), url)
-  return "curl -o tmp.pbf {} | tippecanoe-decode -c tmp.pbf {} {} {}".format(
-    url, zxy[0], zxy[1] - 1, zxy[2]
+  return "curl -o {}-{}-{}.pbf {}; tippecanoe-decode -c {}-{}-{}.pbf {} {} {}; rm {}-{}-{}.pbf".format(
+    zxy[0], zxy[1], zxy[2], url, zxy[0], zxy[1], zxy[2], zxy[0], zxy[1], zxy[2], zxy[0], zxy[1], zxy[2]
   )
 
 def generate_cmds(extent):
@@ -39,4 +39,3 @@ extent = get_extent(EXTENTS_URL, '14321') #14321
 extent.to_parquet('14321.parquet')
 for cmd in generate_cmds(extent):
   print(cmd)
-print("rm tmp.pbf")
