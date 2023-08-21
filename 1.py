@@ -27,7 +27,7 @@ def get_cmd(template, zxy):
   url = re.sub("{x}", str(zxy[1]), url)
   url = re.sub("{y}", str(zxy[2]), url)
   return "curl -o tmp.pbf {} | tippecanoe-decode -c tmp.pbf {} {} {}".format(
-    url, zxy[0], zxy[1], zxy[2]
+    url, zxy[0], zxy[1] - 1, zxy[2]
   )
 
 def generate_cmds(extent):

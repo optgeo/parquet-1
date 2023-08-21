@@ -3,7 +3,7 @@ Project Mosaic: GeoParquet test 1
 
 # Demo
 ## optbv from GSI, Samukawa only.
-https://protomaps.github.io/PMTiles/?url=https%3A%2F%2Fsmb.optgeo.org%2Fipfs%2FQmRy4JWL7L9WbZxG8atK68EdC5tKbArmWZL8mH8do3CQYm#map=12.6/35.37171/139.38318
+https://protomaps.github.io/PMTiles/?url=https%3A%2F%2Fsmb.optgeo.org%2Fipfs%2FQmPkEMg6mmPwqHedro8my6QA7juazDhbJb4sRZYVCYrUEn#map=12.48/35.37715/139.38312
 
 ## The GeoParquet resource
 https://optgeo.github.io/parquet-1/N03-19_14_190101.parquet
