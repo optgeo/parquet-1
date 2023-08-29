@@ -3,8 +3,8 @@ Project Mosaic: GeoParquet test 1
 
 # Demo
 ## optbv samukawa only with style
-latest: https://smb.optgeo.org/ipfs/QmZC16EfjQSnTyzFWUkJsUnDvEqjd3Jxkgg7Bycvm9Zmer
-older: https://smb.optgeo.org/ipfs/QmatcFj6wfMdjp6Xg42jQdsQi1JjTekXvCf3ppamaLVTqN
+- latest: https://smb.optgeo.org/ipfs/QmZC16EfjQSnTyzFWUkJsUnDvEqjd3Jxkgg7Bycvm9Zmer
+- older: https://smb.optgeo.org/ipfs/QmatcFj6wfMdjp6Xg42jQdsQi1JjTekXvCf3ppamaLVTqN
 
 ## optbv from GSI, Samukawa only.
 https://protomaps.github.io/PMTiles/?url=https%3A%2F%2Fsmb.optgeo.org%2Fipfs%2FQmSPNa7eYAVBMsQPAFx6aMzCrc7xE3fqky7Pgb9CfJaaSg#map=12.48/35.37715/139.38312
